@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--GOOGLE FONTS-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <!--FIM GOOGLE FONTS-->
+    <!--BOOTSTRAP ICONS-->
+    <style>
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+    </style>
+    <!--FIM BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="menu.js" defer></script>
+    <title>Portólio - Vagner Sampaio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="image/Logo.png" alt="Logo VS">
+                </a>
+            </div><!--Logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Vagner Sampaio<span>.</span></h1>
+                        <h3>Desenvolvedor <span>Front-end</span></h3>
+                        <p>
+                            O desenvolvimento de aplicações web é essencial no mundo atual, pois permite o acesso
+                            global, melhora a experiência do usuário, aumenta a eficiência operacional e integra
+                            tecnologias emergentes, garantindo segurança e inovação para empresas de todos os tamanhos.
+                        </p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="img-topo-site">
+                        <img src="image/VS.png" alt="Foto de Vagner Sampaio">
+                    </div>
+                </div>
+            </div>
+        </section><!--Topo do site-->
+
+        <section class="habilidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>HABILIDADES.</span></h2>
+                <div class="flex">
+                    <div class="habilidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>HTML,CSS,JS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, est voluptatum nobis quibusdam
+                            maxime ipsum iure?</p>
+                    </div>
+
+                    <div class="habilidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>LOJA ONLINE</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, est voluptatum nobis quibusdam
+                            maxime ipsum iure?</p>
+                    </div>
+
+                    <div class="habilidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>BLOG</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, est voluptatum nobis quibusdam
+                            maxime ipsum iure?</p>
+                    </div>
+                </div>
+            </div>
+        </section><!--Habilidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="image/Vs-500x500.png" alt="Vagner Sampaio - Desenvolvedor Front-end">
+                    </div>
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU VAGNER SAMPAIO.</span></h2>
+                        <p>De analista de suporte a dev-front End... no mercado de TI / Tecnologia / infraestrutura e
+                            suporte desde 2010,
+                            Atualmente trabalhando como prestador de serviços de suporte/gestão de acessos na QUALIIT,
+                            estudando Desenvolvimento Front-end e desenvolvendo alguns projetos pessoais.</p>
+
+                        <p>Estou sempre buscando novos desafios e aprender novas tecnologias, sempre em busca de
+                            crescimento pessoal e profissional.</p>
+
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/vagnercsampaio/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/VStech7"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/vagner-sampaio/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+        </section><!--Sobre-->
+
+        <section class="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+                <div class="flex">
+                    <div class="img-proj" style="background-image: url(image/imagem.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-proj" style="background-image: url(image/imagem.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-proj" style="background-image: url(image/imagem.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div>
+            </div><!--Interface-->
+        </section><!--Projetos-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">ENTRE EM <span>CONTATO.</span></h2>
+
+                <form>
+                    <input type="text" placeholder="Nome:" required>
+                    <input type="email" placeholder="E-mail:" required>
+
+                    <input type="text" placeholder="Assunto:" required>
+                    <textarea placeholder="Sua Mensagem" required></textarea>
+
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section><!--Formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="image/Logo-footer.png" alt="Logotipo Vagner Sampaio">
+                    </div><!--Logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/vagnercsampaio/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/VStech7"> <button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/vagner-sampaio/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div>
+                </div>
+            </div><!--Line-footer Logo+Social-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i><a href="mailto:vstecsup@gmail.com"> vstecsup@gmail.com</a></p>
+            </div><!--Line-footer Email-->
+        </div>
+    </footer>
+</body>
+
+</html>
