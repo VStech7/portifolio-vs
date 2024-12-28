@@ -10,9 +10,7 @@ O objetivo do portfólio web é criar uma apresentação dos projetos que tenho 
 - Animações em Javascript.
 
 
+## Screenshot
 
-
-## Screenshots
-
-https://ibb.co/J3f8yvt
+<a href="https://ibb.co/J3f8yvt"><img src="https://i.ibb.co/g45QPS9/Port-lio-Vagner-Sampaio.png" alt="Port-lio-Vagner-Sampaio" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>download gif link</a><br />
 
