@@ -14,5 +14,5 @@ O objetivo do portfólio web é criar uma apresentação dos projetos que tenho 
 
 ## Screenshots
 
-![App Screenshot](https://ibb.co/J3f8yvt)
+https://ibb.co/J3f8yvt
 
