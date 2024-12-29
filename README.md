@@ -8,6 +8,7 @@ O objetivo do portfólio web é criar uma apresentação dos projetos que tenho 
 - Site Responsivo - Adaptado para dispositivos mobile
 - Acessibilidade - Texto Alt nas imagens e semântica seguindo os padrões de boas práticas.
 - Animações em Javascript.
+- Site no estilo "single page" moderno e aprimorado para experiência do usuário.
 
 
 ## Screenshot
